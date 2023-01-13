@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "63070a020f5e0e6fc84316c5",
+    "username": "Christopher Banks",
+    "email": "a12345@test.com",
+    "password": "a12345",
+    "profilePicture": "https://randomuser.me/api/portraits/men/61.jpg",
+    "coverPicture": "https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "isAdmin": false
+  },
+  {
+    "_id": "63070a098436nofo84316c5",
+    "username": "Clarence Romero",
+    "email": "b12345@test.com",
+    "password": "b12345",
+    "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "coverPicture": "https://images.pexels.com/photos/1023953/pexels-photo-1023953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "isAdmin": false
+  }
+]

@@ -1,0 +1,66 @@
+.reg
+  .container
+    position: relative
+    box-sizing: border-box
+    background-color: #f5f5f5
+    border-radius: 5px
+    margin-left: 100px
+    margin-right: 100px
+    margin-top: 10px
+    min-height: 700px
+    overflow: hidden
+    .bgText
+      position: absolute
+      right: 10px
+      bottom: 10px
+      font-size: 100px
+      font-family: 'Bakbak One', cursive
+      color: rgba(0, 0, 0, 0.04)
+    .nav
+      padding: 10px
+    .info
+      padding-left: 10px
+      padding-right: 10px
+    .form
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      margin: auto
+      width: 300px
+      height: 220px
+      background-color: rgba(0,0,0,0.05)
+      border-radius: 5px
+      padding: 20px
+      box-sizing: border-box
+      input
+        border: 0
+        font-size: 24px
+        line-height: 50px
+        width: 100%
+        border-radius: 10px
+        box-sizing: border-box
+        padding-left: 10px
+        margin-bottom: 15px
+        color: #747272
+        &:focus
+          outline: 2px solid #827883
+        &::placeholder
+          color: #c2bebe
+      button
+        width: 100%
+        font-size: 30px
+        border: none
+        background-color: #c2df1b
+        padding-top: 8px
+        padding-bottom: 8px
+        border-radius: 5px
+        color: #f73333
+        cursor: pointer
+        &:hover
+          background-color: #d8eb69
+      button:disabled, button[disabled] 
+        background-color: #aea5a5
+        color: #9d9797
+        cursor: wait
